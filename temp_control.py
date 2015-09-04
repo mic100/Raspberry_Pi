@@ -32,10 +32,10 @@ while True :
 
         #set up of the variables to access to the distant database.
         try :
-            db = ms.connect(host="ns1075.ifastnet.com",user="oakessoc_admin",\
-                            passwd="femmes125.",db="oakessoc_sensors")
+            db = ms.connect(host="your_host_name",user="your_user_name",\
+                            passwd="your_password",db="your_database_name")
         except(M.OperationalError):
-            print '\n', "########ISSUE_ns1075.ifastnet.com_Mysqldatabase_########"
+            print '\n', "########ISSUE_%s_Mysqldatabase_########" % ("your_host_name")
             print "########RPi_CANT_REACH_DATABASE########"
             print "########CHECK_WIRES_FROM_RPI_TO_INTERNETPROVIDER'S_ROOTER(BOX)########", '\n'
             os.system("sudo reboot")

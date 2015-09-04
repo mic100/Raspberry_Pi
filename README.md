@@ -1,9 +1,8 @@
 # Raspberry_Pi
-Sensors_alpha
+<Sensors_alpha>
 
 
-Re_installation of all dependencies :
-1)Part 1 :
+1)Re_installation of all dependencies :
 
 sudo apt-get udpate
 sudo apt-get upgrade
